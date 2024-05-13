@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b2a34;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #221f2c;
+}
+
+.topnav img{
+    width: 8%;
+    float: left;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.buscador{
+    float: right;
+    margin: 3vw;
+    width: 35%;
+    border-radius: 60px;
+    padding: 13px;
+}
+
+/*------------POSTS---------------*/
+.boton{
+    border: none;
+    border-radius: 40px;
+    display: inline-flex;
+    padding: 2%;
+    background-color: #4e4c5e;
+    right: 30px;
+    position: fixed;
+}
+.boton a{
+    color: aqua;
+    text-decoration: none;
+    list-style: none;
+}
+
+.upost{ /*Estructura General de Post y Comment*/
+    background-color: #4e4c5e;
+    margin-left: 12%;
+    display: inline-block;
+    width: 75%;
+    border-radius: 80px
+}
+
+.pp{ /*CSS QUE EDITA LA PFP DE POST*/
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 200px;
+    
+}
+
+.p_username{ /*CSS QUE EDITA EL USERNAME DE POST*/
+    float: left;
+    margin-top: 60px;
+    font-size: 40px;
+    font-size: 25px;
+    color: rgb(190, 199, 226);
+    margin-bottom: 5px;
+}
+
+.post_title{ /*CSS QUE EDITA TITULO DE POST*/
+    font-size: 25px;
+    margin-left: 30px;
+    color: rgb(190, 199, 226);
+    margin-bottom: 5px;
+}
+
+.post_subject{ /*CSS QUE EDITA EL SUBJECT DE POST*/
+    color: rgb(190, 199, 226);
+}
+
+.post_body{/*CSS QUE EDITA BODY DE POST*/
+    font-size: 15px;
+    color: rgb(194, 220, 223);
+    display: block;
+} 
+
+.p_img{ /*CSS QUE EDITA IMG DE POST*/
+    width: 45%;
+    margin-right: 70px;
+    margin-top: 10px;
+    padding: 15px;
+    display: block;
+}
+
+.p_pdf{ /*CSS QUE EDITA ACHIVO DE POST*/
+    width: 250px;
+    padding: 60px;
+
+}
+
+
+/*------------COMMENTS---------------*/
+
+.username{ /*CSS QUE EDITA USERNAME DE COMMENT*/
+
+}
+.comment_pp{ /*CSS QUE EDITA PFP DE COMMENT*/
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+    margin-right: 3px;
+    border-radius: 200px;
+
+}
+
+.c_body{ /*CSS QUE EDITA BODY DE COMMENT*/
+    
+}
+
+
+.profile_pic{/*CSS QUE CAMBIA LA PFP EN LA BARRA TOPNAV*/
+
+}
+.bar_username{/*CSS QUE CAMBIA USERNAME EN LA BARRA TOPNAV*/
+
+}
+
+@media only screen and (max-width:20000000px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        display: block;
+
+    }
+}
+/*MEDIA QUERIE PARA TRABAJAR*/
+@media only screen and (max-width:20000000px){
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive .icon{
+        position: absolute;
+    }
+    .topnav.responsive a{
+        display: block;
+    }
+    
+}
